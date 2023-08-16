@@ -1,0 +1,35 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.project-title {
+  max-width: 720px;
+  margin: auto;
+}
+
+.content {
+  max-width: 720px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-title {
+  margin: 10px 0 5px 0;
+}
+
+.form-wrap {
+  margin: 10px 0 50px 0;
+}
+
+.submit {
+  margin: 10px 0;
+}
+
+.result {
+  height: 20px;
+  margin: 10px 0;
+}
