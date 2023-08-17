@@ -13,7 +13,7 @@ const romanSymbols = new Map([
 ]);
 
 const getRomanNumber = (digit, number) => {
-  if (number === 0) return;
+  if (number === 0) return "";
 
   switch (digit) {
     case 1: {
